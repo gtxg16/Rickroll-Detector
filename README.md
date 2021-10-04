@@ -1,4 +1,4 @@
-# RickrollLinkChecker
+# Rickroll Detector
 Check a link to see if it is a rickroll, without actually clicking!
 Have you even been sent a link, your friend telling you "this is really important please click", and clicking it, only to find out it is a rickroll? Times like these make you wish you could **FUCKING MURDER THAT LITTLE SHIT**. Calm down, calm down. You have two options.
 
