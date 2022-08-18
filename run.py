@@ -16,7 +16,7 @@ while True:
         except requests.exceptions.MissingSchema:  # except if input is not url
             print("This isn't a valid link...")  # it would have already gone on to else since it didnt have one of the elements in the list
             exit()
-        if any(substring in r.url for substring in rickroll):  # checking if final link that shortened url leads to is a rickroll
+        if any(substring in r.history for substring in rickroll):  # checking if final link that shortened url leads to is a rickroll
             print("This link is a rickroll, don't click it!")
         else:
             print("This link is not a rickroll, it is safe to click it!")
